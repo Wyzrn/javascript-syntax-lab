@@ -98,3 +98,26 @@ myCar.model = 'Civic';
 console.log('myCar: ', myCar);
 console.log('anotherCar: ', anotherCar);
 
+// ! Exercise 6:
+// a. Define a variable named `propertyName` and assign a string (like 
+//    'username', 'age', or 'email') to it.
+// 
+// b. Create an object named `userProfile`. 
+// 
+// c. Use `propertyName` as a dynamic key in `userProfile`. Assign it a 
+//    relevant value.
+//
+// d. Console log the `userProfile` object to see the result.
+//
+// Your code here:
+
+// Define a variable named propertyName with a string
+const propertyName = 'username';
+
+// Create an object named userProfile with propertyName as a dynamic key
+const userProfile = {
+  [propertyName]: 'jdoe123'
+};
+
+// Console log the userProfile object
+console.log(userProfile);
