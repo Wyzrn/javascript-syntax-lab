@@ -142,3 +142,21 @@ function describe(noun = "cat", adjective = "orange") {
 describe(); // Logs: The cat is orange.
 describe("dog", "fluffy"); // Logs: The dog is fluffy.
 describe("bird"); // Logs: The bird is orange.
+
+// ! Exercise 9:
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
+
+// Your code here:
+
+// Use a ternary operator to log 'yum' or 'yuck'
+console.log(pizza === 'tasty' ? 'yum' : 'yuck');
